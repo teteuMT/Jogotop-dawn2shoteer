@@ -294,7 +294,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.12
+  m_Radius: 0.2
 --- !u!70 &6120360568252203889
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.32, y: 0.36}
+  m_Size: {x: 0.41, y: 0.31}
   m_Direction: 0
 --- !u!95 &7015069725799609410
 Animator:
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174f283849b092f44853d97e703b556f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 10
+  vida: 40
   energia: 100
   velocidade: 8
   arma: {fileID: 9083000962247440763}
@@ -491,7 +491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3866793708794899770
 Transform:
   m_ObjectHideFlags: 0
@@ -501,8 +501,8 @@ Transform:
   m_GameObject: {fileID: 6647180987618229502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2298967, y: -0.018677644, z: 0}
-  m_LocalScale: {x: 0.5443212, y: 0.5443212, z: 0.5443212}
+  m_LocalPosition: {x: 0.212, y: -0.003, z: 0}
+  m_LocalScale: {x: 0.8310696, y: 0.8310696, z: 0.8310696}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9083000962247440763}

@@ -60,7 +60,7 @@ public class Inimigo : Personagem
             if (posicaoDoPlayer != null &&
                 Vector3.Distance(posicaoDoPlayer.position, transform.position) <= raioDeVisao)
             {
-                Debug.Log("Posição do Pluer" + posicaoDoPlayer.position);
+                Debug.Log("Posição do Player" + posicaoDoPlayer.position);
 
                 transform.position = Vector3.MoveTowards(transform.position,
                     posicaoDoPlayer.transform.position,
